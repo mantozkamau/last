@@ -14,8 +14,6 @@ width: 28vh;
 margin: 5px;
 border-radius: 5px;
 height: 40px;
-
-
 }
 .crust select{
   width: 28vh;
@@ -59,4 +57,7 @@ footer{
 }
 h1{
   text-align: center;
+}
+#continue{
+  -top: 15%;
 }
