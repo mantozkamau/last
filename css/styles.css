@@ -1,0 +1,29 @@
+.top{
+    background-image: url('https://bit.ly/3ccsgtr');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-attachment: fixed;
+    color: white;
+}
+.size select{
+  width: 25vh;
+  margin: 5px;
+  border-radius: 5px;
+  
+}
+.crust select{
+    width: 25vh;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  .topping select{
+    width: 25vh;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  #button{
+    width: 25vh;
+    margin: 5px; 
+    border-radius: 5px;
+  }
