@@ -1,29 +1,62 @@
+*{
+  overflow-x: hidden;
+}
 .top{
-    background-image: url('https://bit.ly/3ccsgtr');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 70vh;
-    background-attachment: fixed;
-    color: white;
+  background-image: url('https://bit.ly/3ccsgtr');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-attachment: fixed;
+  color: white;
 }
 .size select{
-  width: 25vh;
-  margin: 5px;
-  border-radius: 5px;
-  
+width: 28vh;
+margin: 5px;
+border-radius: 5px;
+height: 40px;
+
+
 }
 .crust select{
-    width: 25vh;
-    margin: 5px;
-    border-radius: 5px;
-  }
-  .topping select{
-    width: 25vh;
-    margin: 5px;
-    border-radius: 5px;
-  }
-  #button{
-    width: 25vh;
-    margin: 5px; 
-    border-radius: 5px;
-  }
+  width: 28vh;
+  margin: 5px;
+  border-radius: 5px;
+  height: 40px;
+}
+.topping select{
+  width: 28vh;
+  margin: 5px;
+  border-radius: 5px;
+  height: 40px;
+}
+#button{
+  width: 20vh;
+  margin: 5px; 
+  border-radius: 5px;
+  text-align: center;
+  padding-left: 15%;
+}
+.container h1{
+    text-align: center;
+}
+.logo img{
+  height: 130px;
+
+}
+.logo{
+  text-align: center;
+  padding-top: 50px;
+}
+.top{
+  text-align: center;
+  background-attachment: fixed;
+}
+.row img {
+  padding: 20px;
+}
+footer{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}

@@ -12,48 +12,96 @@
 </head>
 
 <body>
-    <div id="top" class="top">
-        <h1>QUICK-PIZZA</h1>
-        <P>Tasty!,Spicy!,Affordable!</P>
+    <div class="first">
+        <div id="top" class="top">
+            <div class=logo>
+                <img src="https://bit.ly/2I6aU3U">
+            </div>
+            <h1>QUICK-PIZZA</h1>
+            <P>Tasty!, Spicy!, Affordable!</P>
+            <button id="continue">Continue</button>
 
-    </div>
-    <div class="row">
-        <!-- <div class="container"> -->
-        <div class="container" >
-            <form>
-                <div class="size"> 
-                    <label for="size" id="size"></label>
-                    <select>
-                        <option>small</option>
-                        <option>medium</option>
-                        <option>large</option>
-                    </select>
-    
+        </div>
+        <div id="close"  style="display: none;">
+            <h1> OUR VARIETIES</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="https://bit.ly/2TlSfGh">
                 </div>
-                <div class="crust">
-   
-                    <label for="crust" id="crust"></label>
-                    <br> <select>
-                        <option>Cripsy</option>
-                        <option>Stuffed</option>
-                        <option>Gluten-free</option>
-                    </select>
-    
+                <div class="col-md-3">
+                    <img src="https://bit.ly/396706Y">
                 </div>
-                <div class="topping"> 
+                <div class="col-md-3">
+                    <img src="https://bit.ly/2TlSfGh">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://bit.ly/2TlSfGh">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://bit.ly/396706Y">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://bit.ly/396706Y">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://bit.ly/396706Y">
+                </div>
+                <div class="col-md-3">
+                    <img src="https://bit.ly/396706Y">
+                </div>
 
-                    <label for="topping" id="topping"></label>
-                    <br><select>
-                        <option>Onions</option>
-                        <option>Sausage</option>
-                        <option>Bacon</option>
-                    </select>
+
+            </div>
+
+            <div class="container">
+                <h1>Place your order!</h1>
+                <div class="row">
+                    <div class="col-6">
+
+                        <div class="size">
+                            <label for="size" id="size"></label>
+                            <select>
+                                <option>small@ ksh850</option>
+                                <option>medium@ Ksh900</option>
+                                <option>large@ Ksh1200</option>
+                            </select>
+
+                        </div>
+                        <div class="crust">
+
+                            <label for="crust" id="crust"></label>
+                            <br> <select>
+                                <option>Cripsy</option>
+                                <option>Stuffed</option>
+                                <option>Gluten-free</option>
+                            </select>
+
+                        </div>
+                        <div class="topping">
+
+                            <label for="topping" id="topping"></label>
+                            <br><select>
+                                <option>Onions</option>
+                                <option>Sausage</option>
+                                <option>Bacon</option>
+                            </select>
+                        </div>
+                        <br> <button id="button">Orde!</button>
+                    </div>
+                    <div class="col-6">
+                        <p>Your order will be processed and delivered within one hour of placing.<br>
+
+                            Make sure you have the total amout for the order during order delivery.
+
+                            Incase of any comment of complaint, Please reach out to us as fast as possible.</p>
+                    </div>
                 </div>
-          
-                <br><button id="button">Order</button>
-            </form>
+            </div>
         </div>
-        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <script src="/js/script.js"></script>
     </div>
 </body>
 
