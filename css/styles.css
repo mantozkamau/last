@@ -69,13 +69,18 @@ h1{
 }
 .row{
   text-align: center;
+  background-color:brown;
 }
 #name{
 width: 30vh;
+border-radius: 10px;
 }
 #location{
   width:30vh ;
+  border-radius: 10px;
 }
 #number{
   width: 30vh;
+  border-radius: 10px;
+  margin-left: 2%;
 }
