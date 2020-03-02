@@ -60,9 +60,9 @@
                         <div class="size">
                             <label for="size" ></label>
                             <select id="size">
-                                <option>small@ ksh850</option>
-                                <option>medium@ Ksh900</option>
-                                <option>large@ Ksh1200</option>
+                                <option value="900">medium@ Ksh900</option>
+                                <option value="850">small@ ksh850</option>
+                                <option value="1200">large@ Ksh1200</option>
                             </select>
 
                         </div>
@@ -70,9 +70,9 @@
 
                             <label for="crust"></label>
                             <br> <select id="crust">
-                                <option>Cripsy @85</option>
-                                <option>Stuffed @90</option>
-                                <option>Gluten-free @120</option>
+                                <option value="85">cripsy @85</option>
+                                <option value="90">Stuffed @90</option>
+                                <option value="120">Gluten-free @120</option>
                                 <option>none</option>
                             </select>
 
@@ -81,17 +81,17 @@
 
                             <label for="topping" ></label>
                             <br><select id="topping">
-                                <option>Onions @50</option>
-                                <option>Sausage @100</option>
-                                <option>Bacon @150</option>
-                                <option>none @200</option>
+                                <option value="50">Onions @50</option>
+                                <option value="100">Sausage @100</option>
+                                <option value="150">Bacon @150</option>
+                                <option>none</option>
                             </select>
                             <div class="quantity">
-                                <input id="quantity" type="number" minlength="1" maxlength="12">
+                                <input id="quantity" type="number" min="1" max="12">
 
                             </div>
                         </div>
-                        <br> <button id="button">Orde!</button>
+                        <br> <button id="button"  value="check-out" onclick="myFinal()" type="submit">Order!</button>
                     </div>
                     <div class="col-6">
                       
