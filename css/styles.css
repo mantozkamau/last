@@ -59,5 +59,23 @@ h1{
   text-align: center;
 }
 #continue{
-  -top: 15%;
+  margin-top: 15%;
+}
+.type select{
+  width: 28vh;
+  margin: 5px;
+  border-radius: 5px;
+  height: 40px;
+}
+.row{
+  text-align: center;
+}
+#name{
+width: 30vh;
+}
+#location{
+  width:30vh ;
+}
+#number{
+  width: 30vh;
 }
