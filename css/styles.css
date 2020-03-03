@@ -34,6 +34,12 @@ height: 40px;
   text-align: center;
   padding-left: 15%;
 }
+#quantity{
+  width: 28vh;
+  margin: 5px;
+  border-radius: 5px;
+  height: 40px;
+}
 .container h1{
     text-align: center;
 }
