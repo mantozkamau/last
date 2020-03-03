@@ -21,7 +21,9 @@ To get a local copy of the site:
 | :---         |          ---: |
 | pizza-size  |  ` e.g large`|
 | topping     |  ``eg onions``   |
-| crust    | `eg peporoni`
+| crust    | `eg peporoni`|
+|quantity |`e.g 2`|
+
 ## Bugs.
 1. The list for ordered pizza is not displaying.
 ## License
