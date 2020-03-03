@@ -19,7 +19,7 @@ To get a local copy of the site:
 ## BDD
 | Inputs |  Description|
 | :---         |          ---: |
-| pizza-size  |  `large`|
+| pizza-size  |  ` e.g large`|
 | topping     |  ``eg onions``   |
 | crust    | `eg peporoni`
 ## Bugs.
