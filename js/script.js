@@ -33,5 +33,5 @@ event.preventDefault();
 var total = 0;
 var total = (mySize()+ myTopping()+ myCrust()) * myNumber();
 console.log(total);
-alert("your order is " + total +"  your amout is " + total);
+alert("your order is " + total +"  your amount is " + total);
 };
