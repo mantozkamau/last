@@ -1,4 +1,5 @@
 # quick-pizza
+Quick-pizza is a webpage that makes it easy for a client to order their prefered pizza,topping and crust and displays their total.[https://mantozkamau.github.io/last/]
 [Check it out]( )
 ## Description.
 Quick-pizza is a webpage that makes it easy for a client to order their prefered pizza,topping and crust and displays their total.[https://mantozkamau.github.io/last/]
