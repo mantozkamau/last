@@ -67,6 +67,18 @@ h1{
   border-radius: 5px;
   height: 40px;
 }
+#button{
+  width: 28vh;
+  margin: 5px;
+  border-radius: 5px;
+  height: 40px;
+}
+#quantity{
+  width: 28vh;
+  margin: 5px;
+  border-radius: 5px;
+  height: 40px;
+}
 .row{
   text-align: center;
   background-color:brown;
