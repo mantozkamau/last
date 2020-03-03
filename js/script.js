@@ -12,25 +12,26 @@ alert(" hae " + name + " we've received your order it will be processed and deli
 };
 
 function mySize(){
-    var size=document.getElementById('size');
+    var size = document.getElementById('size');
     return parseInt(size);
 }
 function myTopping(topping){
-    var topping=document.getElementById("topping");
+    var topping = document.getElementById("topping");
     return parseInt(topping);
 
 }
 function myCrust(crust){
-    var crust=document.getElementById("crust");
+    var crust = document.getElementById("crust");
     return parseInt(crust)
 }
 function myNumber(){
-    var number=document.getElementById("quantity");
+    var number = document.getElementById("quantity");
     return parseInt(number);
 }
 function myFinal(){
 event.preventDefault();
-var total=(mySize()+ myTopping()+ myCrust()) * myNumber();
+var total = 0;
+var total = (mySize()+ myTopping()+ myCrust()) * myNumber();
 console.log(total);
-alert("your order " + myNumber()+"your amout is "+total);
+alert("your order is " + total +"your amout is "+ total);
 };
