@@ -11,3 +11,11 @@ event.preventDefault();
 alert(" hae " + name + " we've received your order it will be processed and deliverd to " +location)
 };
 
+function myPrice(){
+   var crust=document.getElementById("crust").text
+   var topping=document.getElementById("topping").value
+   var size=document.getElementById("size").value
+   var quantity=document.getElementById("quantity").value
+   var final=(crust + topping +size ) *quantity;
+   alert("your order of " + crust + " , " + topping+ " , " + size + " Has been received and is being processed " + "  total price  is " + final );
+};

@@ -18,7 +18,7 @@ To get a local copy of the site:
 * JQuery
 ## BDD
 | Inputs |  Description |output
-| :---         |          ---: |
+| :---         |           | :---        ---:|
 | pizza-size  | The users name. `large`|
 | topping     | user location. ``eg onions``   |
 | crust    | what crust user selects |`eg peporoni`
