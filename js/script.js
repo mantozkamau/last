@@ -12,7 +12,7 @@ alert(" hae " + name + " we've received your order it will be processed and deli
 };
 
 function myPrice(){
-    var crust=document.getElementById("crust").text
+    var crust=document.getElementById("crust").value
     var topping=document.getElementById("topping").value
     var size=document.getElementById("size").value
     var quantity=document.getElementById("quantity").value
