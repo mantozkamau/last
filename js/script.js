@@ -8,7 +8,13 @@ var name=document.getElementById("name").value
 var location=document.getElementById('location').value
 var number=document.getElementById("number").value
 event.preventDefault();
-alert(" hae " + name + " we've received your order it will be processed and deliverd to " +location)
+if(name===""||location===""||number===""){
+    alert("Fields can't be empty");
+}
+else{
+    alert(" hae " + name + " we've received your order it will be processed and deliverd to " +location)
+}
+
 };
 
 function myPrice(){
