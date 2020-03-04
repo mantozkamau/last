@@ -17,11 +17,13 @@ else{
 
 };
 
-function myPrice(){
+function myFinal(){
    var crust=document.getElementById("crust").value
    var topping=document.getElementById("topping").value
    var size=document.getElementById("size").value
    var quantity=document.getElementById("quantity").value
    var final=(crust + topping +size ) *quantity;
+   
+
    alert("your order of " + crust + " , " + topping+ " , " + size + " Has been received and is being processed " + "  total price  is " + final );
 };
